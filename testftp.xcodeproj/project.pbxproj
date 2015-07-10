@@ -13,18 +13,7 @@
 		A8AE473B1B4FC3E300CF6765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8AE47391B4FC3E300CF6765 /* Main.storyboard */; };
 		A8AE473D1B4FC3E300CF6765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AE473C1B4FC3E300CF6765 /* Images.xcassets */; };
 		A8AE47401B4FC3E300CF6765 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8AE473E1B4FC3E300CF6765 /* LaunchScreen.xib */; };
-		A8AE474C1B4FC3E300CF6765 /* testftpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AE474B1B4FC3E300CF6765 /* testftpTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A8AE47461B4FC3E300CF6765 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A8AE47241B4FC3E300CF6765 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8AE472B1B4FC3E300CF6765;
-			remoteInfo = testftp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A8AE472C1B4FC3E300CF6765 /* testftp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testftp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		A8AE473A1B4FC3E300CF6765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8AE473C1B4FC3E300CF6765 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8AE473F1B4FC3E300CF6765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A8AE47451B4FC3E300CF6765 /* testftpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testftpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8AE474A1B4FC3E300CF6765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8AE474B1B4FC3E300CF6765 /* testftpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testftpTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A8AE47291B4FC3E300CF6765 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8AE47421B4FC3E300CF6765 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				A8AE472E1B4FC3E300CF6765 /* testftp */,
-				A8AE47481B4FC3E300CF6765 /* testftpTests */,
+				A8AE472F1B4FC3E300CF6765 /* Supporting Files */,
 				A8AE472D1B4FC3E300CF6765 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				A8AE472C1B4FC3E300CF6765 /* testftp.app */,
-				A8AE47451B4FC3E300CF6765 /* testftpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,7 +66,6 @@
 				A8AE47391B4FC3E300CF6765 /* Main.storyboard */,
 				A8AE473C1B4FC3E300CF6765 /* Images.xcassets */,
 				A8AE473E1B4FC3E300CF6765 /* LaunchScreen.xib */,
-				A8AE472F1B4FC3E300CF6765 /* Supporting Files */,
 			);
 			path = testftp;
 			sourceTree = "<group>";
@@ -100,23 +77,7 @@
 				A8AE47311B4FC3E300CF6765 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A8AE47481B4FC3E300CF6765 /* testftpTests */ = {
-			isa = PBXGroup;
-			children = (
-				A8AE474B1B4FC3E300CF6765 /* testftpTests.m */,
-				A8AE47491B4FC3E300CF6765 /* Supporting Files */,
-			);
-			path = testftpTests;
-			sourceTree = "<group>";
-		};
-		A8AE47491B4FC3E300CF6765 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A8AE474A1B4FC3E300CF6765 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = testftp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +100,6 @@
 			productReference = A8AE472C1B4FC3E300CF6765 /* testftp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8AE47441B4FC3E300CF6765 /* testftpTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8AE47521B4FC3E300CF6765 /* Build configuration list for PBXNativeTarget "testftpTests" */;
-			buildPhases = (
-				A8AE47411B4FC3E300CF6765 /* Sources */,
-				A8AE47421B4FC3E300CF6765 /* Frameworks */,
-				A8AE47431B4FC3E300CF6765 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8AE47471B4FC3E300CF6765 /* PBXTargetDependency */,
-			);
-			name = testftpTests;
-			productName = testftpTests;
-			productReference = A8AE47451B4FC3E300CF6765 /* testftpTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +111,7 @@
 				TargetAttributes = {
 					A8AE472B1B4FC3E300CF6765 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					A8AE47441B4FC3E300CF6765 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = A8AE472B1B4FC3E300CF6765;
+						DevelopmentTeam = ZW95P3X8Q5;
 					};
 				};
 			};
@@ -189,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				A8AE472B1B4FC3E300CF6765 /* testftp */,
-				A8AE47441B4FC3E300CF6765 /* testftpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +141,6 @@
 				A8AE473B1B4FC3E300CF6765 /* Main.storyboard in Resources */,
 				A8AE47401B4FC3E300CF6765 /* LaunchScreen.xib in Resources */,
 				A8AE473D1B4FC3E300CF6765 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8AE47431B4FC3E300CF6765 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8AE47411B4FC3E300CF6765 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8AE474C1B4FC3E300CF6765 /* testftpTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A8AE47471B4FC3E300CF6765 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A8AE472B1B4FC3E300CF6765 /* testftp */;
-			targetProxy = A8AE47461B4FC3E300CF6765 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A8AE47391B4FC3E300CF6765 /* Main.storyboard */ = {
@@ -280,7 +196,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -323,7 +240,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -347,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = testftp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,43 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = testftp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A8AE47531B4FC3E300CF6765 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testftpTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testftp.app/testftp";
-			};
-			name = Debug;
-		};
-		A8AE47541B4FC3E300CF6765 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testftpTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testftp.app/testftp";
 			};
 			name = Release;
 		};
@@ -414,14 +300,6 @@
 			buildConfigurations = (
 				A8AE47501B4FC3E300CF6765 /* Debug */,
 				A8AE47511B4FC3E300CF6765 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		A8AE47521B4FC3E300CF6765 /* Build configuration list for PBXNativeTarget "testftpTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8AE47531B4FC3E300CF6765 /* Debug */,
-				A8AE47541B4FC3E300CF6765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
